@@ -1,0 +1,153 @@
+    /*
+01-background attatchment:fixed or scroll,default scroll,fixed-image doesnt move when scrolled.
+
+*/
+    
+    .parallax01 {
+        background-image: url(images/div1.jpg);
+        min-height: 1000px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+    }
+    
+    .Box01 {
+        /* decor */
+        color: white;
+        font-size: 2rem;
+        /* centering the div */
+        width: 250px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -125px;
+        /* half width*/
+        margin-top: -25px;
+        /* half height*/
+        padding: 1rem;
+        /* centering text within the div */
+        display: flex;
+        align-items: center;
+        /* align-items: center; vertically */
+        justify-content: center;
+    }
+    
+    .solid01 {
+        background-color: gainsboro;
+        color: rgb(105, 101, 101);
+        /* centering text within the div */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h3 {
+        margin: 0px;
+        padding: 30px;
+        font-family: 'Nuosu SIL', serif;
+        font-size: 2rem;
+    }
+    
+    p {
+        margin: 0px;
+        padding: 30px;
+        padding-top: 0px;
+        font-family: 'Nuosu SIL', serif;
+    }
+    
+    .parallax02 {
+        background-image: url(images/div2.jpg);
+        min-height: 1000px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+    }
+    
+    .solid02 {
+        background-color: rgb(54, 49, 49);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Box02 {
+        /* decor */
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        /* centering the div */
+        width: 250px;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -125px;
+        /* half width*/
+        margin-top: 1300px;
+        /* half height*/
+        padding: 1rem;
+        /* centering text within the div */
+        display: flex;
+        align-items: center;
+        /* align-items: center; vertically */
+        justify-content: center;
+    }
+    
+    .parallax03 {
+        background-image: url(images/div3.jpg);
+        min-height: 1000px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        /* align-items: center; vertically */
+        justify-content: center;
+    }
+    
+    .Box03 {
+        font-size: 2rem;
+        width: 30%;
+        color: white;
+        display: flex;
+        align-items: center;
+        /* align-items: center; vertically */
+        justify-content: center;
+    }
+    
+    .solid03 {
+        background-color: rgb(54, 49, 49);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .parallax04 {
+        background-image: url(images/div4.jpg);
+        min-height: 1000px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .Box04 {
+        font-size: 2rem;
+    }
